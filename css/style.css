@@ -200,6 +200,8 @@ ul li span {
 }
 
 #top-bar-content #contact {
+    height: 100px;
+    line-height: 45px;
     float: right;
     padding: 0 20px;
     border-left: 2px solid #fff;
@@ -208,7 +210,7 @@ ul li span {
 
 #top-bar-content #contact p {
     font-family: 'BebasNeueRegular', Arial, sans-serif;
-    margin: 5px 0;
+    margin: 5px  0;
     color: #fff;
     font-size: 15px;
     display: block;
@@ -224,7 +226,7 @@ ul li span {
 
 #top-bar-content #contact p span.left {
     display: block;
-    width: 70px;
+    width: 100px;
     float: left;
     text-align: left;
 }
@@ -257,6 +259,76 @@ ul li span {
     font-size: 19px;
     text-shadow: 2px 2px 0 #eea1a7;
 }
+
+/* ==========================================================================
+   HEADER
+   ========================================================================== */
+header {
+    padding-top: 40px;
+}
+
+header #about-me {
+    width: 190px;
+    height: 190px;
+    background-color: #eee;
+    float: left;
+    border: 5px solid #fff;
+	border-radius: 50%; 
+	background:transparent url('../img/cdebruyne_thumbnail.jpg') center center no-repeat;
+	margin:0;
+}
+
+header .circles {
+    font-size: 14px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    margin-top: 20px;
+    width: 155px;
+    height: 155px;
+    float: left;
+    border: 5px solid #fff;
+	border-radius: 50%;
+    background: #ea7079;
+    margin-left: 20px;
+    color: #eee;
+    text-shadow: 1px 1px 0px #777;
+    cursor: pointer;
+}
+
+header #work {
+    margin-left: 75px;
+}
+header #education {
+    background-color: #b7d472;
+    margin-left: 75px;
+}
+
+header #skills {
+    background-color: #5ec3b8;
+    margin-left: 75px;
+}
+
+header .circles span {
+    display: block;
+    padding-top: 52px;
+    font-size: 28px;
+    color: #fff;
+}
+
+header #about-me:hover, header #work:hover {
+    border: 5px solid #d4414b;
+}
+
+header #education:hover {
+    border: 5px solid #6c8a25;
+}
+
+header #skills:hover {
+    border: 5px solid #1f7f75;
+}
+
+
 
 /* ==========================================================================
    s_work
